@@ -23,11 +23,6 @@
               <MenuItem mnemonicParsing="false" text="vissza" />
             </items>
           </Menu>
-            <Menu fx:id="mostaniBtn" mnemonicParsing="false" onAction="#fillFromStack" text="mostani">
-              <items>
-                <MenuItem mnemonicParsing="false" onAction="#fillFromStack" text="betoltes" />
-              </items>
-            </Menu>
         </menus>
       </MenuBar>
    </children>

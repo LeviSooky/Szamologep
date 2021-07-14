@@ -66,21 +66,6 @@ public class CalcHistory implements Initializable {
 
 
 
-    public void fillFromStack() {
 
-       /*
-        FXMLLoader loader =new FXMLLoader(getClass().getResource("/fxml/primary.fxml"));
-        PrimaryController prim=loader.getController();
-        list.clear();
-        setSessionList(prim.history);
-        list.setAll( sessionList);
-        tabla.setItems(list);
-        tabla.refresh();
-        */
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setHeaderText(null);
-        alert.setContentText("TODO!");
-        alert.showAndWait();
-    }
 
 }
