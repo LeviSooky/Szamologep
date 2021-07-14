@@ -8,6 +8,7 @@ Ez a projekt egy multi-module maven projekt, az asztali alkalmazás JavaFX-ben l
     -hatványozás, négyzetgyök
     -sin,cos,tan
     -stb..
+    
  -Mértékegységek közötti átváltás
  
  -Pénznemek közötti átváltás a legfrissebb árfolyamokon a v6.exchangerate-api segítségével.
