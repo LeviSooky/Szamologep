@@ -11,4 +11,6 @@ Ez a projekt egy multi-module maven projekt, az asztali alkalmazás JavaFX-ben l
     
  -Mértékegységek közötti átváltás
  
- -Pénznemek közötti átváltás a legfrissebb árfolyamokon a v6.exchangerate-api segítségével.
+ -Pénznemek közötti átváltás a legfrissebb árfolyamokon a v6.exchangerate-api segítségével
+ 
+ -A korábban végzett műveletek eredményeit SQLite adatbázis tárolja, amelyek kategóriánként listázhatóak
