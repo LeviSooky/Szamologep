@@ -79,7 +79,7 @@ public class CalcHistory implements Initializable {
         */
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText(null);
-        alert.setContentText("Sikertelen megvalósítás, elnézést!");
+        alert.setContentText("TODO!");
         alert.showAndWait();
     }
 
