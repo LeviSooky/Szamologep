@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.alkfejl.PrimaryController">
+   <children>
+      <GridPane layoutY="243.0" prefHeight="231.0" prefWidth="443.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="110.0" minWidth="10.0" prefWidth="107.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="275.0" minWidth="10.0" prefWidth="124.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.0" minWidth="10.0" prefWidth="124.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.0" minWidth="10.0" prefWidth="96.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="64.0" minHeight="21.0" prefHeight="22.0" />
+          <RowConstraints maxHeight="64.0" minHeight="21.0" prefHeight="22.0" />
+          <RowConstraints maxHeight="83.0" minHeight="30.0" prefHeight="34.0" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="42.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="8.0" prefHeight="43.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="35.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="38.0" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="Button" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="122.0" text="8" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="4" textAlignment="CENTER" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="5" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="1" textAlignment="CENTER" GridPane.rowIndex="5" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="," textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="6" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="67.0" prefWidth="132.0" text="7" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="67.0" prefWidth="294.0" text="9" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="*" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="-" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#getResult" text="=" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="105.0" text="\%" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="tan" GridPane.columnIndex="1" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#deleteInput" text="C" GridPane.columnIndex="2" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#deleteLastChar" onMouseClicked="#deleteLastChar" text="DEL" GridPane.columnIndex="3" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="1/x" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="sqrt(x)" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="^" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <SplitMenuButton alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" popupSide="TOP" text="Others" GridPane.rowIndex="6">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#switchToSecondary" text="Currency" />
+                <MenuItem mnemonicParsing="false" onAction="#switchToUnitConverter" text="Mérték" />
+              </items>
+            </SplitMenuButton>
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="sin" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="cos" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="(" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onMouseClick" text=")" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <TextField fx:id="outputText" editable="false" layoutX="208.0" layoutY="194.0" onInputMethodTextChanged="#getResult" prefHeight="34.0" prefWidth="221.0" />
+      <Label layoutX="302.0" layoutY="177.0" text="Result" />
+      <Button fx:id="showHistory" layoutX="375.0" layoutY="30.0" mnemonicParsing="false" onAction="#showHis" text="History" />
+      <TextField fx:id="inputText" layoutX="9.0" layoutY="84.0" prefHeight="85.0" prefWidth="425.0" />
+      <Button layoutX="161.0" layoutY="199.0" mnemonicParsing="false" onAction="#putANS" text="ANS" />
+   </children>
+</AnchorPane>

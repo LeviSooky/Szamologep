@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="szamologep@localhost" uuid="bb01d43e-83ed-440c-bfcb-afa785cae23b">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/szamologep</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="szamologep" uuid="eab0df3c-5821-40d9-9c0f-79069df77228">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\java_libs\sqlite-tools-win32-x86-3350500\szamologep</jdbc-url>
+    </data-source>
+  </component>
+</project>

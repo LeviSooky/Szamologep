@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.alkfejl.currHistory">
+    <children>
+        <TableView fx:id="tabla" layoutY="26.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="443.0">
+            <columns>
+                <TableColumn fx:id="col_mennyit" prefWidth="103.0" text="Mennyit" />
+                <TableColumn fx:id="col_mirol" text="Miről" />
+                <TableColumn fx:id="col_eredmeny" prefWidth="137.0" text="Eredmény" />
+            <TableColumn fx:id="col_mire" prefWidth="121.0" text="Mire" />
+            </columns>
+        </TableView>
+        <MenuBar prefHeight="29.0" prefWidth="253.0">
+            <menus>
+                <Menu fx:id="visszaBtn" mnemonicParsing="false" onAction="#backToPrimary" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="vissza" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>
