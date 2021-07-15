@@ -1,5 +1,5 @@
 # Számológép
-Ez a projekt egy multi-module maven projekt, az asztali alkalmazás JavaFX-ben lett megvalósítva, a webalkalmazás Servlet és JSP használatával.
+Ez a projekt egy multi-module maven projekt, az asztali alkalmazás JavaFX-ben lett megvalósítva, a webalkalmazás Servlet és JSP használatával. A db.properties-ben lévő DBURL átírásával és a tomcat bekonfigurálásával futtatható.
 ## Funkciók:
  -Általános matematikai műveletek
  
